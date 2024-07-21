@@ -10,3 +10,7 @@ _install-subabase:
 # Start the application
 up:
   supabase start
+
+# Stop application and all services
+down:
+  supabase stop
